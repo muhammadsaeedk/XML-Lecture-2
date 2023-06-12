@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--this is an example of internal DTD-->
+<!DOCTYPE family [
+<!ELEMENT family (Num-Brothers, Name-of-brother, Num-of-kids, Name-of-kids)>
+<!ELEMENT Num-Brothers (#PCDATA)>
+<!ELEMENT Name-of-brother (#PCDATA)>
+<!ELEMENT Num-of-kids (#PCDATA)>
+<!ELEMENT Name-of-kids (#PCDATA)>
+]>
+<!--From here html code starts-->
+<family>
+<Num-Brothers> seven </Num-Brothers>
+<Name-of-brother> Sameed, Saeed, Azhar, Afaq, Shahroom, Azizullah</Name-of-brother>
+<Num-of-kids> Four </Num-of-kids>
+ <Name-of-kids> Amanullah, Fardan, Eshaal and Malaika </Name-of-kids>
+ </family>
